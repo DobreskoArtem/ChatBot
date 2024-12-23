@@ -5,7 +5,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 async def start(update: Update, context: CallbackContext) -> None:
     # Создаём кнопки
     keyboard = [
-        ["Ну привет, Таприскен"]
+        ["Ну привет, Таприскеныыы"]
     ]
     reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
 
