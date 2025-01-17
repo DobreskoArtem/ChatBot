@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="563a9593-cefd-43e1-b73b-99a45cbbdef0" name="Changes" comment="четвертая версия бота (Пробую добавить кнопки &quot;Выйти без удаления записей&quot; и &quot;Удалить все записи&quot;)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +34,7 @@
     &quot;Python.chatbot.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;
   }
 }</component>
   <component name="SharedIndexes">
