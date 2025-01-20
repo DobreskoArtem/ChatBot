@@ -1,0 +1,1 @@
+worker: python record_bot.py
