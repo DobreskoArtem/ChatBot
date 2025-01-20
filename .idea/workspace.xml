@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="563a9593-cefd-43e1-b73b-99a45cbbdef0" name="Changes" comment="четвертая версия бота (Пробую добавить кнопки &quot;Выйти без удаления записей&quot; и &quot;Удалить все записи&quot;)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/record_bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/record_bot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

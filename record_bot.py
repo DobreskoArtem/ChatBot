@@ -8,7 +8,15 @@ app = Flask(__name__)
 
 # Получаем токен бота и OWNER_CHAT_ID из переменных окружения
 TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")  # Токен бота
-OWNER_CHAT_ID = int(os.getenv("OWNER_CHAT_ID"))  # ID владельца бота
+OWNER_CHAT_ID = os.getenv("OWNER_CHAT_ID")  # ID владельца бота
+
+# Проверяем, заданы ли переменные окружения
+if TOKEN is None:
+    raise ValueError("Переменная окружения TELEGRAM_BOT_TOKEN не задана.")
+if OWNER_CHAT_ID is None:
+    raise ValueError("Переменная окружения OWNER_CHAT_ID не задана.")
+
+OWNER_CHAT_ID = int(OWNER_CHAT_ID)  # Преобразуем в число
 
 # Инициализация приложения Telegram Bot
 application = Application.builder().token(TOKEN).build()
@@ -54,7 +62,7 @@ def run_flask():
 
 if __name__ == '__main__':
     # Установка вебхука
-    application.bot.set_webhook(url="https://chatbot-et8d.onrender.com/webhook")
+    application.bot.set_webhook(url="https://your-bot-name.onrender.com/webhook")
 
     # Запуск Flask в отдельном потоке
     flask_thread = Thread(target=run_flask)
